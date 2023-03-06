@@ -1,14 +1,14 @@
 import Button from '@mui/material/Button';
 import { ThemeProvider } from '@mui/material/styles';
-import { theme } from './styles/palette';
+import { theme }  from './styles/palette';
 
 function App() {
   return (
-    <div>
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <div>
         <Button variant="contained">Hello World</Button>
-      </ThemeProvider>
-    </div>
+      </div>
+    </ThemeProvider>
   );
 }
 
